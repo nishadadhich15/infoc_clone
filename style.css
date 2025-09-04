@@ -1,0 +1,15 @@
+/* @import '../public/assets/tailwind.css'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.green-text{
+    color:#9DEADD;
+}
+
+.hover-green:hover {
+    background-color: #9DEADD; /* same as your green-text ID */
+  }
+#b-green-text{
+    background-color: #9DEADD;
+  }
