@@ -8,14 +8,39 @@
 }
 
 .hover-green:hover {
-    background-color: #9DEADD; /* same as your green-text ID */
+    background-color: #9DEADD; 
   }
 #b-green-text{
     background-color: #9DEADD;
-
   }
-
 
 .title-text{
     font-family: sans-serif;
 }
+.slide {
+      display: none;
+    }
+    .slide.active {
+      display: block;
+    }
+    .btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .btn:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .prev { left: 20px; }
+    .next { right: 20px; }
+    .slider-container {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+    }
